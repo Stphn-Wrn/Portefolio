@@ -55,9 +55,9 @@ export default {
   border-width: 0 0 0.1em 0.1em;
   height: 2.5em;
   left: 0em;
-  bottom: 38px;
+  bottom: 45%;
   margin: auto;
-  width: 4.5em;
+  width: 6.5%;
 }
 #item-special::before {
   content: "";
@@ -65,10 +65,10 @@ export default {
   border-color: #15fe18;
   border-style: solid;
   border-width: 0 0 0.1em 0;
-  left: 165px;
-  bottom: 38px;
+  left: 13%;
+  bottom: 45%;
   margin: auto;
-  width: 9em;
+  width: 13%;
 }
 #item-skills::before {
   content: "";
@@ -76,10 +76,10 @@ export default {
   border-color: #15fe18;
   border-style: solid;
   border-width: 0 0 0.1em 0;
-  left: 455px;
-  bottom: 38px;
+  left: 35.5%;
+  bottom: 45%;
   margin: auto;
-  width: 9em;
+  width: 13.5%;
 }
 #item-perks::before {
   content: "";
@@ -87,10 +87,10 @@ export default {
   border-color: #15fe18;
   border-style: solid;
   border-width: 0 0 0.1em 0;
-  right: 395px;
-  bottom: 38px;
+  left: 54.5%;
+  bottom: 45%;
   margin: auto;
-  width: 9em;
+  width: 13.5%;
 }
 #item-general::after {
   content: "";
@@ -100,9 +100,9 @@ export default {
   border-width: 0 0.1em 0.1em 0;
   height: 2.5em;
   right: 0;
-  bottom: 38px;
+  bottom: 45%;
   margin: auto;
-  width: 4.5em;
+  width: 7.5%;
 }
 #item-general::before {
   content: "";
@@ -110,10 +110,10 @@ export default {
   border-color: #15fe18;
   border-style: solid;
   border-width: 0 0 0.1em 0;
-  right: 170px;
-  bottom: 38px;
+  left: 73.5%;
+  bottom: 45%;
   margin: auto;
-  width: 9em;
+  width: 14%;
 }
 .special {
   text-transform: uppercase;
