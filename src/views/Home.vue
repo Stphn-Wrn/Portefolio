@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <Info/>
     
     <Vaultboy/>
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style>
-
+div {
+  width: auto;
+  
+}
 
 </style>

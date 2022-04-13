@@ -19,14 +19,13 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin:100px;
     color:#15fe18;
 }
 img {
-    height:300px;
-    margin:40px;
+    height:200px;
 }
 h2{
-    margin:5px;
+    margin-top:30px;
 }
 </style>

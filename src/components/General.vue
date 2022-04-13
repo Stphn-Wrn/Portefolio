@@ -1,5 +1,5 @@
 <template>
-    <div id="special">
+    <div id="general">
     <div class="left">
         <p><span>S</span>trengh</p>
         <p><span>P</span>erception</p>
@@ -32,13 +32,13 @@ export default {
 </script>
 
 <style scoped>
-#special {
+#general {
     display: flex;
     justify-content: center;
     align-items: center;
     color:#15fe18;
     width:80%;
-    margin:40px;
+    margin:100px;
 }
 :is(.right, .left){
     color: #15fe18;

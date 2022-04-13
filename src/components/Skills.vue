@@ -24,7 +24,7 @@ export default {
     align-items: center;
     color:#15fe18;
     width:80%;
-    margin:40px;
+    margin:100px;
 }
 :is(.right, .left){
     color: #15fe18;

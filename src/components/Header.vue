@@ -1,5 +1,6 @@
 <template>
   <div id="header">
+    <header>
     <nav>
       <ul id="li-nav-items">
         <li id="item-status">
@@ -24,6 +25,7 @@
         </li>
       </ul>
     </nav>
+    </header>
   </div>
 </template>
 
@@ -37,8 +39,10 @@ export default {
 <style>
 #header {
   color: #15fe18;
-  width: 80%;
+  width:80%;
+  
 }
+
 #li-nav-items {
   position: relative;
   display: flex;
@@ -102,7 +106,7 @@ export default {
   right: 0;
   bottom: 45%;
   margin: auto;
-  width: 7.5%;
+  width: 6.5%;
 }
 #item-general::before {
   content: "";

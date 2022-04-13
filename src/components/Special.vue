@@ -13,7 +13,7 @@
     <div class="container">
     <img src="../assets/img/strength.gif" alt="">
     
-    <div class="">
+    <div class="special-item">
         <p v-if="activeHoverForS"> Michel </p>
         <p v-if="activeHoverForP"> Nouille </p>
         <p v-if="activeHoverForE"> Tartuffe</p>
@@ -57,7 +57,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     color:#15fe18;
-    margin:40px 40px;
+    margin:100px;
 }
 :is(.right,.left){
     color: #15fe18;
@@ -71,20 +71,21 @@ export default {
 }
 .container{
     display: flex;
+    flex-direction: column;
 }
 span{
     font-size:30px;
 }
-p{
-    margin: 10px 0;     
-    width:130px;
+.special-item{
+    text-align: left;
+    width:276.07px;
 }
+
 .left p::first-letter{
 font-size:30px;
 }
 img{
     filter:grayscale(100%) brightness(60%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
-    height:200px;
-    margin-right:60px;
+    height:200px; 
 }
 </style>

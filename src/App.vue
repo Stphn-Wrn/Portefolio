@@ -14,17 +14,18 @@ export default {
 </script>
 
 <style>
+
 body{
-  height:auto;
-  width:auto;
+  height:40%;
+  width:80%;
   margin:0 auto;
+  background-color: black;
 }
+
 #app {
-  padding:10%;
+  padding-top:10%;
   height:100vh;
   background-color: black;
   font-family: 'Monofonto', sans-serif;                            
 }
-
-
 </style>
