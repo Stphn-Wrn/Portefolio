@@ -1,28 +1,13 @@
 <template>
-  <div id="info">
-        
+  <div id="info">      
     <div class="info-block">
         <h1>Stats</h1>
       <ul>
-          <li id="lvl-item">
-            lvl
-            28
-            </li>
-          <li id="hp-item">
-            hp
-            120494
-          </li>
-          <li id="ap-item">
-            ap
-            35340
-          </li>
-          <li id="xp-item">          
-            xp
-            0615676526
-          </li>
+          <li id="lvl-item">lvl 28</li>
+          <li id="hp-item">hp 120494</li>
+          <li id="ap-item">ap 35340</li>
+          <li id="xp-item">xp 0615676526</li>
       </ul>
-        
-      
     </div>
   </div>
 </template>
@@ -45,7 +30,7 @@ export default {
     border: #15fe18 1px solid;
     border-bottom-width: 0;
     border-left-width: 0;
-    height:32px;
+    height:2em;
     margin: 0 0 0 10px;
     padding:0 20px;
     word-spacing: 4em;   
@@ -65,7 +50,7 @@ h1::before{
     border-color: #15fe18;
     border-style: solid;
     border-width: 0.1em 0 0 0.1em;
-    height:2.5em;
+    height:2em;
     left: 0;
     top: 35px;
     width: 135px;
