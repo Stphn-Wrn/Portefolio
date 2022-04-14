@@ -42,21 +42,16 @@
 
 <script>
 import stats from "../service/special"
-
 export default {
   name: "Special-view",
   components: {},
-  data() {
-    return {};
-  },
   methods: {
      getStats:(e) => {
-
-         let text =  document.querySelector('#right > .special-item');
+         console.log(e)
+        let text =  document.querySelector('#right > .special-item');
         let img = document.querySelector('#right > img');
-         text.innerHTML = require(stats[e].phrase);
-         img.src = require(stats[e].gif);
-
+        text.innerHTML = stats[e].phrase;
+        img.src = require(stats[e].gif);
 }
     }
   }

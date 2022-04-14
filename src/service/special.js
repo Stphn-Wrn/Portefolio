@@ -1,4 +1,4 @@
-export let stats = [
+export default [
   {gif:'../assets/img/stat-1.gif', phrase:'Possède suffisament de force pour git push mon travail après une grosse journée.'},
   {gif:'../assets/img/stat-2.gif', phrase:'Arrive à retrouver le point virgule manquant dans 200 lignes de code.'},
   {gif:'../assets/img/stat-3.gif', phrase:'Possède suffisament d\'endurance pour pouvoir coder pendant des heures.'},
