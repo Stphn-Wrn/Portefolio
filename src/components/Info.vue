@@ -3,10 +3,10 @@
     <div class="info-block">
         <h1>Stats</h1>
       <ul>
-          <li id="lvl-item">lvl 28</li>
-          <li id="hp-item">hp 120494</li>
-          <li id="ap-item">ap 35340</li>
-          <li id="xp-item">xp 0615676526</li>
+          <li id="lvl-item">age 28</li>
+          <li id="hp-item">dn 120494</li>
+          <li id="ap-item">cp 35340</li>
+          <li id="xp-item">tel 0615676526</li>
       </ul>
     </div>
   </div>
@@ -32,7 +32,7 @@ export default {
     border-left-width: 0;
     height:2em;
     margin: 0 0 0 10px;
-    padding:0 20px;
+    padding:10px 20px;
     word-spacing: 4em;   
     
 }
@@ -66,8 +66,6 @@ h1::before{
 ul {
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
     top: 35px;
     right: 0;
    

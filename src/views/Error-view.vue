@@ -15,7 +15,7 @@ import Info from '../components/Info.vue'
 
 
 export default {
-  name: '404-view',
+  name: 'Error-view',
   components: {
     Header,
     Info,

@@ -34,7 +34,7 @@
         <img src="../assets/img/stat-0.gif" alt="Vault boy qui montre ses muscles"/>
         
         <div class="special-item">
-          <p>Possède suffisament de forcer pour git push mon travail après une grosse journée</p>
+          <p>Possède suffisament de force pour git push mon travail après une grosse journée.</p>
         </div>
       </div>
     </div>

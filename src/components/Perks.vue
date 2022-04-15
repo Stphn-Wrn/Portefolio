@@ -4,23 +4,18 @@
       <div id="div-container">
       <div class="div-item active" @click="getSkill(0)" >
         <p class="special-term">Farfouilleur</p>
-        <p>9</p>
       </div>
       <div class="div-item active" @click="getSkill(1)" >
         <p class="special-term">Ami des bêtes</p>
-        <p>9</p>
       </div>
       <div class="div-item active" @click="getSkill(2)" >
         <p class="special-term">Esprit Vif</p>
-        <p>9</p>
       </div>
       <div class="div-item active" @click="getSkill(3)" >
         <p class="special-term">Expert en informatique</p>
-        <p>9</p>
       </div>
       <div class="div-item active" @click="getSkill(4)" >
         <p class="special-term">Expert en survie</p>
-        <p>9</p>
       </div>
       </div>
     </div>
@@ -28,7 +23,7 @@
         <img src="../assets/img/skill-0.png" alt="Vault boy qui montre ses muscles"/>
         
         <div class="special-item">
-          <p>Je suis tellement déterminé, que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.</p>
+          <p>Je suis tellement déterminé que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.</p>
         </div>
       </div>
     </div>
@@ -81,8 +76,8 @@ export default {
     flex-direction: column;
 }
 .special-term { 
-    width: 50%;
-    margin:5px 0;
+    width: 80%;
+    margin:10px 0;
     padding:0 10px;
 }
 p, .special-item {
@@ -99,10 +94,6 @@ p, .special-item {
   height:150px;
 }
 
-.div-item {
-    display: flex;
-    align-items: center; 
-}
 .div-item:active {
     color: black;
   background-color: #15fe18;

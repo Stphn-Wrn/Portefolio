@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img src="../assets/img/pip-boy-gif.gif" alt="">
-    <h2>Stephen <span>Woirin</span> - level 28</h2>
+    <h2>Stephen <span>Woirin</span></h2>
     <p>Développeur Web Front-End</p>
   </div>
 </template>

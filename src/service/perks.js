@@ -1,7 +1,7 @@
 const perks = [
   {
     path:require('../assets/img/skill-0.png'), 
-    phrase:'Je suis tellement déterminé, que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.',
+    phrase:'Je suis tellement déterminé que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.',
     alt:'Vault-boy montre ses muscles.'
    },
 
@@ -24,7 +24,7 @@ const perks = [
 
    {
     path:require('../assets/img/skill-4.png'), 
-    phrase:'En tant qu\'ancien sapeur-pompier et agent de sécurité incendie, je sais travailler en équipe. Je m\'intégrerais dans votre équipe en un temps record. ',
+    phrase:'En tant qu\'ancien sapeur-pompier et agent de sécurité incendie, je sais travailler en équipe. Je m\'intégrerais dans votre équipe en un temps record. <br> <br>  PS : Je regarde aussi Koh-Lanta tous les mardis, sait-on jamais, ça peut servir.',
     alt:'Vault-boy lit un livre.'
    },
 ]

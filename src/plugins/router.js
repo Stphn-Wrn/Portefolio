@@ -33,8 +33,8 @@ const routes = [
   },
   {
     path: '/*',
-    name: '404-view',
-    component: () => import ('../views/404-view.vue')
+    name: 'Error-view',
+    component: () => import ('../views/Error-view.vue')
   },
 
   
