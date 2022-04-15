@@ -1,37 +1,38 @@
 <template>
   <div id="special">
     <div class="left">
-      <div class="div-item active">
-        <p @mouseover="getStats(0)" class="special-term">Strengh</p>
+      <div class="div-item active" @click="getStats(0)" >
+        <p class="special-term">Strengh</p>
         <p>9</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(1)" class="special-term">Perception</p>
+      <div class="div-item active"  @click="getStats(1)" >
+        <p class="special-term">Perception</p>
         <p>7</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(2)" class="special-term">Endurance</p>
-        <p>5</p>
+      <div class="div-item active" @click="getStats(2)" >
+        <p class="special-term">Endurance</p>
+        <p>9</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(3)" class="special-term">Charisma</p>
-        <p>5</p>
+      <div class="div-item active" @click="getStats(3)" >
+        <p class="special-term">Charisma</p>
+        <p>8</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(4)" class="special-term">Intelligence</p>
+      <div class="div-item active" @click="getStats(4)">
+        <p class="special-term">Intelligence</p>
         <p>6</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(5)" class="special-term">Agility</p>
-        <p>2</p>
+      <div class="div-item active" @click="getStats(5)" >
+        <p class="special-term">Agility</p>
+        <p>5</p>
       </div>
-      <div class="div-item active">
-        <p @mouseover="getStats(6)" class="special-term">Luck</p>
-        <p>8</p>
+      <div class="div-item active" @click="getStats(6)" >
+        <p class="special-term">Luck</p>
+        <p>10</p>
       </div>
     </div>
     <div id="right">
-        <img  src="../assets/img/stat-1.gif" alt=""/>
+        <img src="../assets/img/stat-0.gif" alt="Vault boy qui montre ses muscles"/>
+        
         <div class="special-item">
           <p>Possède suffisament de forcer pour git push mon travail après une grosse journée</p>
         </div>
@@ -42,20 +43,28 @@
 
 <script>
 import stats from "../service/special"
+
 export default {
   name: "Special-view",
-  components: {},
   methods: {
      getStats:(e) => {
-         console.log(e)
+        // console.log(e)
         let text =  document.querySelector('#right > .special-item');
         let img = document.querySelector('#right > img');
-        text.innerHTML = stats[e].phrase;
-        img.src = require(stats[e].gif);
-}
-    }
-  }
 
+        // Récupération des data. 
+        text.innerHTML = stats[e].phrase;
+        img.src = stats[e].path;
+        img.alt = stats[e].alt;
+      
+        // mise en cache des photos.
+         caches.open('porteFolioImg').then(function(cache) {
+           return cache.add(stats[e].path);
+         }
+       )
+    }
+  },
+}
 
 </script>
 
@@ -67,23 +76,12 @@ export default {
   width:80%;
   margin: 100px auto 100px auto
 }
-.active:hover{
-  color: black;
-  background-color: #15fe18;
-}
-.right {
-  display: flex;
-  justify-content: center;
-  align-items:center;
-}
 .left{
     width: 20%;
 }
 #right{
     width: 300px;
-    height: 300px;
 }
-
 .special-term { 
     width: 50%;
     margin:15px 0;
@@ -96,18 +94,16 @@ p, .special-item {
     display: flex;
     align-items: center; 
 }
-.div-item:last-child{
-    align-self: flex-end;
+.div-item:active {
+    color: black;
+  background-color: #15fe18;
 }
 img {
   filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(50deg)
-  saturate(1000%) contrast(0.8); 
+  saturate(1000%) contrast(0.8);
+  width:250px;
+  height:auto; 
 }
-.hidden{
-    display: none;
-}
-.imgBlock {
-    display:block;
-}
+
 </style>
 
