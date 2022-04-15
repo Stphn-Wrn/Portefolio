@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img src="../assets/img/pip-boy-gif.gif" alt="">
-    <h2>Stephen WOIRIN - level 28</h2>
+    <h2>Stephen <span>Woirin</span> - level 28</h2>
     <p>Développeur Web Front-End</p>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:100px;
+    height:521px;
     color:#15fe18;
 }
 img {
@@ -27,5 +27,13 @@ img {
 }
 h2{
     margin-top:30px;
+    font-size: 20px;
+}
+p{
+  margin-top:5px;
+  font-size: 20px;
+}
+span {
+  text-transform: uppercase;
 }
 </style>

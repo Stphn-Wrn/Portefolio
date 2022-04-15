@@ -24,9 +24,6 @@ export default {
 </script>
 
 <style>
-div {
-  width: auto;
-  
-}
+
 
 </style>

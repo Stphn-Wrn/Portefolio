@@ -15,11 +15,6 @@ const routes = [
     component: () => import('../views/Special-view.vue')
   },
   {
-    path: '/Skills',
-    name: 'Skills-view',
-    component: () => import('../views/Skills-view.vue')
-  },
-  {
     path: '/General',
     name: 'General-view',
     component: () => import('../views/General-view.vue')
@@ -28,6 +23,11 @@ const routes = [
     path: '/Perks',
     name: 'Perks-view',
     component: () => import('../views/Perks-view.vue')
+  },
+  {
+    path: '/*',
+    name: '404-view',
+    component: () => import ('../views/404-view.vue')
   }
 ]
 

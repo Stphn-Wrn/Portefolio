@@ -1,13 +1,13 @@
 <template>
     <div id="general">
     <div class="left">
-        <p><span>S</span>trengh</p>
-        <p><span>P</span>erception</p>
-        <p><span>E</span>ndurance</p>
-        <p><span>C</span>harisma</p>
-        <p><span>I</span>ntelligence</p>
-        <p><span>A</span>gility</p>
-        <p><span>L</span>uck</p>
+        <p>Strengh</p>
+        <p>Perception</p>
+        <p>Endurance</p>
+        <p>Charisma</p>
+        <p>Intelligence</p>
+        <p>Agility</p>
+        <p>Luck</p>
     </div>
     <div class="right">
     <img src="" alt="">
@@ -38,16 +38,13 @@ export default {
     align-items: center;
     color:#15fe18;
     width:80%;
-    margin:100px;
+    height:521px;
 }
 :is(.right, .left){
     color: #15fe18;
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-}
-span{
-    font-size:30px;
 }
 p{
     margin: 10px 0;

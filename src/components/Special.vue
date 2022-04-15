@@ -43,13 +43,13 @@
 
 <script>
 import stats from "../service/special"
-
+// import skill from "../service/skill"
 export default {
   name: "Special-view",
   methods: {
      getStats:(e) => {
         // console.log(e)
-        let text =  document.querySelector('#right > .special-item');
+        let text =  document.querySelector('.special-item > p');
         let img = document.querySelector('#right > img');
 
         // Récupération des data. 
@@ -74,7 +74,7 @@ export default {
   align-items: center;
   color: #15fe18;
   width:80%;
-  margin: 100px auto 100px auto
+  height: 521px;
 }
 .left{
     width: 20%;
@@ -84,16 +84,22 @@ export default {
 }
 .special-term { 
     width: 50%;
-    margin:15px 0;
+    margin:5px 0;
     padding:0 10px;
 }
 p, .special-item {
     font-size: 20px;
 }
+.special-item p {
+  padding-top:50px;
+  margin-bottom:50px;
+
+}
 .div-item {
     display: flex;
     align-items: center; 
 }
+
 .div-item:active {
     color: black;
   background-color: #15fe18;

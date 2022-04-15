@@ -13,10 +13,6 @@
           </router-link>
         </li>
 
-        <li id="item-skills">
-          <router-link to="/Skills" class="link">Skills</router-link>
-        </li>
-
         <li id="item-perks">
           <router-link to="/Perks" class="link">Perks</router-link>
         </li>
@@ -37,7 +33,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 #header {
   color: #15fe18;
   width:80%;

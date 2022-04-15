@@ -23,7 +23,7 @@ export default {
 #info {
     color:#15fe18;
     width:80%;
-    
+    padding-bottom:25px;
 }
 :is(#lvl-item, #hp-item, #ap-item, #xp-item){
     text-transform: uppercase;
