@@ -16,7 +16,12 @@ export default {
     Header,
     Special,
     Info,
-  }
+  },
+  metaInfo: {
+      title: 'S.P.E.C.I.A.L',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
 }
 </script>
 

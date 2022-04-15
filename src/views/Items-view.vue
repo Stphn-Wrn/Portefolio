@@ -19,8 +19,12 @@ export default {
     Header,
     Info,
     Items
-    
-  }
+  },
+  metaInfo: {
+      title: 'Items',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
 }
 </script>
 

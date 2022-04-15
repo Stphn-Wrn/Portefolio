@@ -19,7 +19,12 @@ export default {
     Header,
     Info,
     Vaultboy
-  }
+  },
+  metaInfo: {
+      title: 'Home',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
 }
 </script>
 

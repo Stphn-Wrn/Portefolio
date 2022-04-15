@@ -16,7 +16,12 @@ export default {
     Header,
     Info,
     Skills
-  }
+  },
+  metaInfo: {
+      title: 'Perks',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
 }
 </script>
 

@@ -19,8 +19,12 @@ export default {
   components: {
     Header,
     Info,
-    
-  }
+  },
+  metaInfo: {
+      title: '404',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
 }
 </script>
 
