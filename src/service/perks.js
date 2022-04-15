@@ -1,7 +1,7 @@
 const perks = [
   {
     path:require('../assets/img/skill-0.png'), 
-    phrase:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis praesentium, quidem et autem vel debitis blanditiis! Aliquid laboriosam dolorem ea provident, inventore quam. Consectetur recusandae minus ullam suscipit ipsam necessitatibus similique eaque sed aliquam voluptates?',
+    phrase:'Je suis tellement déterminé, que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.',
     alt:'Vault-boy montre ses muscles.'
    },
 
