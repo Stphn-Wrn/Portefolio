@@ -25,10 +25,17 @@ const routes = [
     component: () => import('../views/Perks-view.vue')
   },
   {
+    path: '/Items',
+    name: 'Items-view',
+    component: () => import ('../views/Items-view.vue')
+  },
+  {
     path: '/*',
     name: '404-view',
     component: () => import ('../views/404-view.vue')
-  }
+  },
+
+  
 ]
 
 const router = new VueRouter({

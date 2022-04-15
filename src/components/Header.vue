@@ -20,6 +20,10 @@
         <li id="item-general">
           <router-link to="/General" class="link">General</router-link>
         </li>
+
+        <li id="item-general">
+          <router-link to="/Items" class="link">Items</router-link>
+        </li>
       </ul>
     </nav>
     </header>

@@ -18,7 +18,7 @@ const perks = [
 
   {
     path:require('../assets/img/skill-3.png'), 
-    phrase:'Vraiment passionné, si vous avez l\'envie de m\'apprendre, de me transmettre votre savoir, c\'est avec une très grande motivation que j\'assimilerais ce que vous me direz.',
+    phrase:'Vraiment passionné, et conscient que j\'ai encore beaucoup à apprendre, si vous avez l\'envie de m\'apprendre, de me transmettre votre savoir, c\'est avec une très grande motivation que j\'assimilerais ce que vous me direz.',
     alt:'Vault-boy lit un livre.'
    },
 
