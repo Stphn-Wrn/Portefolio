@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="../assets/img/pip-boy-gif.gif" alt="">
+    <img src="../assets/img/pip-boy-gif.gif" alt="Vault boy fait un signe du pouce">
     <h2>Stephen <span>Woirin</span></h2>
     <p>Développeur Web Front-End</p>
   </div>

@@ -20,7 +20,7 @@
       </div>
     </div>
     <div id="right">
-        <img src="../assets/img/skill-0.png" alt="Vault boy qui montre ses muscles"/>
+        <img src="../assets/img/skill-0.png" alt="Vault-boy sort des objets d'une malle"/>
         
         <div class="special-item">
           <p>Je suis tellement déterminé que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.</p>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import perks from "../service/perks"
+import perks from "../service/perks.js"
 export default {
   name: "Perks-view",
   methods: {

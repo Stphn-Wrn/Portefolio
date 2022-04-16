@@ -43,7 +43,7 @@
 
 <script>
 import stats from "../service/special"
-// import skill from "../service/skill"
+
 export default {
   name: "Special-view",
   methods: {

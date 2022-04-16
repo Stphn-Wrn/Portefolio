@@ -41,5 +41,4 @@ const stats = [
      alt:'Vault-boy passe devant un chat noir'
     },
 ]
-
-export default stats 
+export default stats;

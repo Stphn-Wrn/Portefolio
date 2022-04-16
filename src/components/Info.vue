@@ -7,15 +7,19 @@
           <li id="hp-item">dn 120494</li>
           <li id="ap-item">cp 35340</li>
           <li id="xp-item">tel 0615676526</li>
+
       </ul>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'Info-item',
-}
+  methods:{
+  }
+  }
 </script>
 
 
@@ -25,7 +29,7 @@ export default {
     width:80%;
     padding-bottom:25px;
 }
-:is(#lvl-item, #hp-item, #ap-item, #xp-item){
+:is(#lvl-item, #hp-item, #ap-item, #xp-item, #time-item){
     text-transform: uppercase;
     border: #15fe18 1px solid;
     border-bottom-width: 0;
