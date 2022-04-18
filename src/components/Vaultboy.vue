@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <img src="../assets/img/pip-boy-gif.gif" alt="Vault boy fait un signe du pouce">
     <h2>Stephen <span>Woirin</span></h2>
     <p>Développeur Web Front-End</p>
@@ -14,7 +14,7 @@ export default {
 
 
 <style scoped>
-.home{
+#home{
     display: flex;
     flex-direction: column;
     justify-content: center;

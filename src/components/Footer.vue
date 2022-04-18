@@ -57,10 +57,10 @@ export default {
 a {
   text-decoration: none;
   color: #15fe18;
-  /* border: #15fe18 solid 3px; */
   padding: 10px;
 }
 .link.active {
-  border: #15fe18 solid 1px;
+  color:black;
+  background-color:#15fe18;
 }
 </style>

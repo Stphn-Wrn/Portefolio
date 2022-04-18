@@ -1,7 +1,7 @@
 <template>
   <div id="items">
     <h2>Les projets</h2>
-    <p>Etant sorti de formation en février, je n'ai pas de réel projet terminé à présenter. Ils viendront se greffer sur cette partie au fûr et à mesure. Néanmoins, vous pouvez retrouver leurs avancées sur mon profil <a href="https://github.com/Stphn-Wrn" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+    <p>Etant sorti de formation en février, je n'ai pas de réel projet terminé à présenter. Ils viendront se greffer sur cette partie au fur et à mesure. Néanmoins, vous pouvez retrouver leurs avancées sur mon profil <a href="https://github.com/Stphn-Wrn" target="_blank" rel="noopener noreferrer">Github</a>.</p>
   </div>
 
 </template>

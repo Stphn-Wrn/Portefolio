@@ -25,6 +25,7 @@ display: flex;
     height:521px;
 }
 p {
+  width:80%;
   font-size: 20px;
   text-align: center;
 }

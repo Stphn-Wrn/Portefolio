@@ -2,19 +2,19 @@
   <div id="special">
     <div id="left">
       <div id="div-container">
-      <div class="div-item active" @click="getSkill(0)" >
+      <div class="div-item" @click="getSkill(0)" >
         <p class="special-term">Farfouilleur</p>
       </div>
-      <div class="div-item active" @click="getSkill(1)" >
+      <div class="div-item" @click="getSkill(1)" >
         <p class="special-term">Ami des bêtes</p>
       </div>
-      <div class="div-item active" @click="getSkill(2)" >
+      <div class="div-item" @click="getSkill(2)" >
         <p class="special-term">Esprit Vif</p>
       </div>
-      <div class="div-item active" @click="getSkill(3)" >
+      <div class="div-item" @click="getSkill(3)" >
         <p class="special-term">Expert en informatique</p>
       </div>
-      <div class="div-item active" @click="getSkill(4)" >
+      <div class="div-item" @click="getSkill(4)" >
         <p class="special-term">Expert en survie</p>
       </div>
       </div>
@@ -58,11 +58,11 @@ export default {
 <style scoped>
 #special {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   color: #15fe18;
-  width:80%;
-  padding-bottom: 50px;
+  width: 80%;
+  height: 521px;
 }
 #left{
     width: 50%;
@@ -77,8 +77,8 @@ export default {
 }
 .special-term { 
     width: 80%;
-    margin:10px 0;
-    padding:0 10px;
+    margin:15px 0;
+    padding:15px 10px;
 }
 p, .special-item {
     font-size: 20px;
@@ -93,8 +93,11 @@ p, .special-item {
   margin:15px 15px;
   height:150px;
 }
-
-.div-item:active {
+.div-item {
+  cursor: pointer;
+ 
+}
+.div-item:hover {
     color: black;
   background-color: #15fe18;
 }

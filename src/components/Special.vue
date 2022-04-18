@@ -1,31 +1,31 @@
 <template>
   <div id="special">
     <div class="left">
-      <div class="div-item active" @click="getStats(0)" >
+      <div class="div-item" @click="getStats(0)" >
         <p class="special-term">Strengh</p>
         <p>9</p>
       </div>
-      <div class="div-item active"  @click="getStats(1)" >
+      <div class="div-item"  @click="getStats(1)" >
         <p class="special-term">Perception</p>
         <p>7</p>
       </div>
-      <div class="div-item active" @click="getStats(2)" >
+      <div class="div-item" @click="getStats(2)" >
         <p class="special-term">Endurance</p>
         <p>9</p>
       </div>
-      <div class="div-item active" @click="getStats(3)" >
+      <div class="div-item" @click="getStats(3)" >
         <p class="special-term">Charisma</p>
         <p>8</p>
       </div>
-      <div class="div-item active" @click="getStats(4)">
+      <div class="div-item" @click="getStats(4)">
         <p class="special-term">Intelligence</p>
         <p>6</p>
       </div>
-      <div class="div-item active" @click="getStats(5)" >
+      <div class="div-item" @click="getStats(5)" >
         <p class="special-term">Agility</p>
         <p>5</p>
       </div>
-      <div class="div-item active" @click="getStats(6)" >
+      <div class="div-item" @click="getStats(6)" >
         <p class="special-term">Luck</p>
         <p>10</p>
       </div>
@@ -34,7 +34,7 @@
         <img src="../assets/img/stat-0.gif" alt="Vault boy qui montre ses muscles"/>
         
         <div class="special-item">
-          <p>Possède suffisament de force pour git push mon travail après une grosse journée.</p>
+          <p>Possède suffisamment de force pour git push mon travail après une grosse journée.</p>
         </div>
       </div>
     </div>
@@ -70,10 +70,11 @@ export default {
 
 <style scoped>
 #special {
-  display: flex;
+   display: flex;
+  justify-content: center;
   align-items: center;
   color: #15fe18;
-  width:80%;
+  width: 80%;
   height: 521px;
 }
 .left{
@@ -84,8 +85,9 @@ export default {
 }
 .special-term { 
     width: 50%;
-    margin:5px 0;
+    margin:10px 0;
     padding:0 10px;
+    
 }
 p, .special-item {
     font-size: 20px;
@@ -98,9 +100,10 @@ p, .special-item {
 .div-item {
     display: flex;
     align-items: center; 
+    cursor:pointer;
 }
 
-.div-item:active {
+.div-item:hover {
     color: black;
   background-color: #15fe18;
 }
