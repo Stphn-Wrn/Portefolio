@@ -1,7 +1,9 @@
 <template>
   <div>
     <Info/>
-    <Skills/>
+    
+    <Items/>
+    
     <Header/>
   </div>
 </template>
@@ -9,16 +11,17 @@
 <script>
 import Header from '../components/Footer.vue'
 import Info from '../components/Header.vue'
-import Skills from '../components/Perks.vue'
+import Items from '../components/Items.vue'
+
 export default {
-  name: 'Skills-view',
+  name: 'Items-view',
   components: {
     Header,
     Info,
-    Skills
+    Items
   },
   metaInfo: {
-      title: 'Perks',
+      title: 'Items',
       // override the parent template and just use the above title only
       titleTemplate: null
     }
@@ -26,5 +29,6 @@ export default {
 </script>
 
 <style>
+
 
 </style>

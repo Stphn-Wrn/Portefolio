@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue'
-import Info from '../components/Info.vue'
+import Header from '../components/Footer.vue'
+import Info from '../components/Header.vue'
 import General from '../components/General.vue'
 
 export default {
@@ -17,7 +17,13 @@ export default {
     Header,
     Info,
     General
-  }
+  },
+  metaInfo: {
+      title: 'General',
+      // override the parent template and just use the above title only
+      titleTemplate: null
+    }
+
 }
 </script>
 

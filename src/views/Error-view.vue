@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div >
     <Info/>
-    <Skills/>
+    <Error/>
     <Header/>
   </div>
 </template>
@@ -9,22 +9,23 @@
 <script>
 import Header from '../components/Footer.vue'
 import Info from '../components/Header.vue'
-import Skills from '../components/Perks.vue'
+import Error from '../components/Error.vue'
+
 export default {
-  name: 'Skills-view',
+  name: 'Error-view',
   components: {
     Header,
     Info,
-    Skills
+    Error
   },
   metaInfo: {
-      title: 'Perks',
+      title: '404',
       // override the parent template and just use the above title only
       titleTemplate: null
     }
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

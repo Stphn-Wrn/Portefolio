@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueMeta from 'vue-meta'
 
 Vue.use(VueRouter)
+Vue.use(VueMeta)
 
 const routes = [
   {
@@ -15,11 +17,6 @@ const routes = [
     component: () => import('../views/Special-view.vue')
   },
   {
-    path: '/Skills',
-    name: 'Skills-view',
-    component: () => import('../views/Skills-view.vue')
-  },
-  {
     path: '/General',
     name: 'General-view',
     component: () => import('../views/General-view.vue')
@@ -28,7 +25,19 @@ const routes = [
     path: '/Perks',
     name: 'Perks-view',
     component: () => import('../views/Perks-view.vue')
-  }
+  },
+  {
+    path: '/Items',
+    name: 'Items-view',
+    component: () => import ('../views/Items-view.vue')
+  },
+  {
+    path: '/*',
+    name: 'Error-view',
+    component: () => import ('../views/Error-view.vue')
+  },
+
+  
 ]
 
 const router = new VueRouter({

@@ -1,7 +1,7 @@
 const stats = [
    {
      path:require('../assets/img/stat-0.gif'), 
-     phrase:'Possède suffisament de force pour git push mon travail après une grosse journée.',
+     phrase:'Possède suffisamment de force pour git push mon travail après une grosse journée.',
      alt:'Vault-boy montre ses muscles.'
     },
 
@@ -13,7 +13,7 @@ const stats = [
 
    {
      path:require('../assets/img/stat-2.gif'), 
-     phrase:'Possède suffisament d\'endurance pour pouvoir coder pendant des heures.',
+     phrase:'Possède suffisamment d\'endurance pour pouvoir coder pendant des heures.',
      alt:'Vault-boy fait de la corde à sauter.'
     },
 
@@ -31,7 +31,7 @@ const stats = [
 
    {
      path:require('../assets/img/stat-5.gif'), 
-     phrase:'Est suffisament Agile pour appliquer la méthodologie SCRUM.',
+     phrase:'Est suffisamment Agile pour appliquer la méthodologie SCRUM.',
      alt:'Vault-boy tient sur une bouteille avec un seul doigt.'
     },
 
@@ -41,5 +41,4 @@ const stats = [
      alt:'Vault-boy passe devant un chat noir'
     },
 ]
-
-export default stats 
+export default stats;
