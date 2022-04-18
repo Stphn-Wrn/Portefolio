@@ -1,67 +1,93 @@
 <template>
-  <div id="header">
-    <header>
-    <nav>
-      <ul id="li-nav-items">
-        <li id="item-status">
-          <router-link to="/" class="link">Status</router-link>
-        </li>
+  <div id="info">      
+    <header class="info-block">
+        <h1>Stats</h1>
+      <ul>
+          <li id="lvl-item">
+            age 28
+            </li>
+          <li id="hp-item">
+              dn 120494
+              </li>
+          <li id="ap-item">
+            <address>
+            cp 35340
+            </address> 
+            </li>
+          <li id="xp-item">
+              <address>
+                tel 0615676526
+              </address>
+              </li>
 
-        <li id="item-special">
-          <router-link to="/S.P.E.C.I.A.L" class="link special">
-            s.p.e.c.i.a.l
-          </router-link>
-        </li>
-
-        <li id="item-perks">
-          <router-link to="/Perks" class="link">Perks</router-link>
-        </li>
-        
-        <li id="item-general">
-          <router-link to="/General" class="link">General</router-link>
-        </li>
-
-        <li id="item-general">
-          <router-link to="/Items" class="link">Items</router-link>
-        </li>
       </ul>
-    </nav>
     </header>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: "Header-item",
-};
+  components: {  },
+  name: 'Header-item',
+  methods:{
+  }
+  }
 </script>
 
 
 <style scoped>
-#header {
-  color: #15fe18;
-  width:80%;
+#info {
+    color:#15fe18;
+    width:80%;
+    padding-bottom:25px;
+}
+:is(#lvl-item, #hp-item, #ap-item, #xp-item){
+    text-transform: uppercase;
+    border: #15fe18 1px solid;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    height:2em;
+    margin: 0 0 0 10px;
+    padding:10px 20px;
+    word-spacing: 4em;   
+    
+}
+#stats-block{
+    position:relative;
+}
+h1{
+    font-size:60px;
+    margin-left:10rem;
+    text-transform: uppercase;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    border-color: #15fe18;
+    border-style: solid;
+    border-width: 0.1em 0 0 0.1em;
+    height:2em;
+    left: 0;
+    top: 35px;
+    width: 135px;
+    font-size: 16px;
 }
 
-#li-nav-items {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  height: 2.5em;
-  border: solid 1px #15fe18;
-  border-top-width: 0;
+.info-block{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-.special {
-  text-transform: uppercase;
+ul {
+    position: absolute;
+    display: flex;
+    top: 35px;
+    right: 0;
+   
 }
-a {
-  text-decoration: none;
-  color: #15fe18;
-  /* border: #15fe18 solid 3px; */
-  padding: 10px;
+address {
+    font-style: normal;
 }
-.link.active {
-  border: #15fe18 solid 1px;
-}
-
 </style>

@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue'
-import Info from '../components/Info.vue'
+import Header from '../components/Footer.vue'
+import Info from '../components/Header.vue'
 import Vaultboy from '../components/Vaultboy.vue'
 
 export default {
