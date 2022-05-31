@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 #app {
-  padding-top:10%;
+  padding-top:5%;
   height:100vh;
   background-color: black;
   font-family: 'Monofonto', sans-serif;                            
