@@ -2,7 +2,7 @@
   <div id="general">
     <div class="left">
       <address>
-        <p>Mes recherches se font autour du bassin rennais, du remote est envisageable avec possibilité de déplacement quelques jours par mois.</p> 
+        <p>Je recherche principalement sur le bassin rennais. En revanche si vous avez une proposition à me soumettre sur une autre ville, le remote est envisageable pour moi avec quelques déplacements par mois sur site.</p> 
         Si jamais mon portefolio vous a plu et que vous souhaitez débuter une
         nouvelle collaboration avec moi. Vous pouvez me retrouver sur mes
         différents réseaux sociaux ou encore me contacter par mail.

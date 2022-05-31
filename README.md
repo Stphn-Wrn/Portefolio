@@ -1,24 +1,3 @@
-# portfolio
+# PORTEFOLIO
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Portefolio sur le thème de Fallout. Ce dernier n'avait pas vocation à être responsive afin de rester dans le design du pipboy-3000. 
