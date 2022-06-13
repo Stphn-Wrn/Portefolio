@@ -69,8 +69,17 @@ export default {
 </script>
 
 <style scoped>
+
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+  * {
+    display:block;
+  }
+
 #special {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #15fe18;
@@ -86,8 +95,7 @@ export default {
 .special-term { 
     width: 50%;
     margin:10px 0;
-    padding:0 10px;
-    
+    padding:0 10px;  
 }
 p, .special-item {
     font-size: 20px;
@@ -95,7 +103,6 @@ p, .special-item {
 .special-item p {
   padding-top:50px;
   margin-bottom:50px;
-
 }
 .div-item {
     display: flex;
@@ -113,6 +120,6 @@ img {
   width:250px;
   height:auto; 
 }
-
+}
 </style>
 

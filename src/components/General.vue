@@ -49,6 +49,13 @@ export default {
 </script>
 
 <style scoped>
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+  * {
+    display:block;
+  }
 #general {
   display: flex;
   justify-content: center;
@@ -82,6 +89,7 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
+
 .social, p {
   margin: 15px 0;
 }
@@ -91,5 +99,6 @@ img {
     saturate(1000%) contrast(0.8);
   width: 30px;
   height: auto;
+}
 }
 </style>

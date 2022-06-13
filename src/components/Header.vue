@@ -7,7 +7,7 @@
             age 28
             </li>
           <li id="hp-item">
-              dn 120494
+              Ville Liffré
               </li>
           <li id="ap-item">
             <address>
@@ -37,6 +37,13 @@ export default {
 
 
 <style scoped>
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+  * {
+    display:block;
+  }
 #info {
     color:#15fe18;
     width:80%;
@@ -89,5 +96,6 @@ ul {
 }
 address {
     font-style: normal;
+}
 }
 </style>

@@ -16,7 +16,15 @@ export default {
 </script>
 
 <style scoped>
-#error {
+
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+  * {
+    display:block;
+  }
+  #error {
 display: flex;
     justify-content: center;
     align-items: center;
@@ -28,5 +36,6 @@ p {
   width:80%;
   font-size: 20px;
   text-align: center;
+}
 }
 </style>

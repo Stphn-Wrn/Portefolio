@@ -38,6 +38,15 @@ export default {
 
 
 <style scoped>
+
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+* {
+  display:block;
+}
+
 #footer {
   color: #15fe18;
   width: 80%;
@@ -62,5 +71,6 @@ a {
 .link.active {
   color:black;
   background-color:#15fe18;
+}
 }
 </style>

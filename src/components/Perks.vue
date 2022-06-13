@@ -1,28 +1,28 @@
 <template>
-  <div id="special">
+  <div id="perks">
     <div id="left">
       <div id="div-container">
       <div class="div-item" @click="getSkill(0)" >
-        <p class="special-term">Farfouilleur</p>
+        <p class="perks-term">Farfouilleur</p>
       </div>
       <div class="div-item" @click="getSkill(1)" >
-        <p class="special-term">Ami des bêtes</p>
+        <p class="perks-term">Ami des bêtes</p>
       </div>
       <div class="div-item" @click="getSkill(2)" >
-        <p class="special-term">Esprit Vif</p>
+        <p class="perks-term">Esprit Vif</p>
       </div>
       <div class="div-item" @click="getSkill(3)" >
-        <p class="special-term">Expert en informatique</p>
+        <p class="perks-term">Expert en informatique</p>
       </div>
       <div class="div-item" @click="getSkill(4)" >
-        <p class="special-term">Expert en survie</p>
+        <p class="perks-term">Expert en survie</p>
       </div>
       </div>
     </div>
     <div id="right">
         <img src="../assets/img/skill-0.png" alt="Vault-boy sort des objets d'une malle"/>
         
-        <div class="special-item">
+        <div class="perks-item">
           <p>Je suis tellement déterminé que je peux passer plusieurs heures à faire des recherches pour pouvoir trouver une solution à mon problème.</p>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default {
   methods: {
     getSkill:(e) => {
         // console.log(e)
-        let text =  document.querySelector('.special-item > p');
+        let text =  document.querySelector('.perks-item > p');
         let img = document.querySelector('#right > img');
 
         // Récupération des data. 
@@ -56,7 +56,15 @@ export default {
 </script>
 
 <style scoped>
-#special {
+
+* {
+  display: none;
+}
+@media (min-width: 1200px) { 
+  * {
+    display:block;
+  }
+#perks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,21 +83,21 @@ export default {
     display: flex;
     flex-direction: column;
 }
-.special-term { 
+.perks-term { 
     width: 80%;
     margin:15px 0;
     padding:15px 10px;
 }
-p, .special-item {
+p, .perks-item {
     font-size: 20px;
 }
-.special-item {
+.perks-item {
   border:1px solid #15fe18;
   border-left-width: 0;
   border-bottom: 0;
   position: relative;
 }
-.special-item p {
+.perks-item p {
   margin:15px 15px;
   height:150px;
 }
@@ -108,6 +116,6 @@ img {
   height:250px; 
   margin-bottom: 40px;
 }
-
+}
 </style>
 
