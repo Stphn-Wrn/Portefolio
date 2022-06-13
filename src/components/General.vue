@@ -28,14 +28,14 @@
     <div id="line"></div>
     <div class="right">
       <ul>
-        <li class="stacks">Vue.js</li>
-        <li class="stacks">Wordpress</li>
+        <li class="stacks">VueJS 2</li>
+        <li class="stacks">PHP - Wordpress</li>
         <li class="stacks">Html5</li>
         <li class="stacks">CSS - SASS / Bootstrap</li>
         <li class="stacks">Script Shell</li>
         <li class="stacks">Git & Github</li>
         <li class="stacks">TypeScript (en cours d'apprentissage)</li>
-        <li class="stacks">Java (en cours d'apprentissage)</li>
+        <li class="stacks">NodeJS, MongoDB, Express (en cours d'apprentissage)</li>
       </ul>
     </div>
   </div>
